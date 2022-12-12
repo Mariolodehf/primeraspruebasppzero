@@ -1,11 +1,24 @@
 import React from "react";
-import img1 from "./../img/1.jpg";
-import img2 from "./../img/2.jpg";
-import img3 from "./../img/3.jpg";
-import img4 from "./../img/4.jpg";
+import logo from "./../img/logoPeriodicoUV1.1.svg";
 import { ReactComponent as FlechaIzquierda } from "./../img/iconmonstr-angel-left-thin.svg";
 import { ReactComponent as FlechaDerecha } from "./../img/iconmonstr-angel-right-thin.svg";
 import styled from "styled-components";
+    
+<nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><img class="img-fluid" data-bss-hover-animate="pulse" src="/assets/img/logoPeriodicoUV1.1.svg?h=a038cf16cdd66a635e370149abd284aa" width="100px" style="text-align: center;"><a class="navbar-brand" href="/index.html">Periódico de la U</a>
+            <div class="overlay"></div><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">¡enterate!</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link text-start" href="/post.html" style="text-align: center;">Blog de historias</a></li>
+                    <li class="nav-item"><a class="nav-link text-start" href="/about.html" style="text-align: center;">acerca de nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact.html">Contactanos</a></li>
+                    <li class="nav-item"><a class="nav-link text-center border rounded-pill rubberBand animated" style="height: 38px;width: 120px;color: rgb(249,248,248);background: var(--bs-red);border-style: none;" href="/ecomeerce.html">TIENDA U</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 const Slideshow = () => {
   return (

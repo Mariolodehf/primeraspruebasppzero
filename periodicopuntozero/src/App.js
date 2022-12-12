@@ -16,7 +16,8 @@ const Titulo = styled.p`
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+
 `;
 
 export default App;
